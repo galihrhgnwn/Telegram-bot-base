@@ -5,7 +5,7 @@ const path = require("path");
 
 const bot = new Bot(process.env.BOT_TOKEN);
 
-const pluginsPath = path.join(__dirname, "plugins/cmd");
+const pluginsPath = path.join(__dirname, "plugins");
 fs.readdirSync(pluginsPath).forEach((file) => {
   if (file.endsWith(".js")) {
     const plugin = require(path.join(pluginsPath, file));
