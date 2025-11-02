@@ -1,0 +1,25 @@
+{
+  "name": "aurafarming",
+  "version": "1.0.0",
+  "description": "Using grammY framework",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "grammy",
+    "telegram-bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "grammy": "^1.38.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
